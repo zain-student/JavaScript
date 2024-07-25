@@ -44,3 +44,14 @@ console.log("==> Array after deleting index 3 value :" + numbers);
 
 // concat function is used to add two arrays
 console.log("==> Array after concatination is :" + numbers.concat(arr));
+
+// Map Function
+// It is used to apply a function to all the elements of the array
+let number = [4, 9, 16, 25, 36, 49];
+
+function squareRoot(num) {
+  return Math.sqrt(num);
+}
+
+let rootNum = number.map(squareRoot);
+console.log("==> Array after map function is :" + rootNum);
